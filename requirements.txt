@@ -1,7 +1,8 @@
 ipykernel~=6.23.3
 matplotlib~=3.7.1
 numpy~=1.25.0
-pandas~=2.02
+pandas~=2.0.2
 torch~=2.0.1
 scikit-learn~=1.2.2
 tqdm~=4.65.0
+pytorch-lightning[extra]~=2.0.4
