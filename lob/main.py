@@ -54,8 +54,8 @@ class DeepLOBModule(pl.LightningModule):
 
 
 if __name__ == "__main__":
-    for k in range(3, 5):
-        for i in range(6, 10):
+    for k in range(5):
+        for i in range(1, 10):
             base_name = f"model-{k}-{i}"
             checkpoint_callback = ModelCheckpoint(
                 monitor="valid_loss",
